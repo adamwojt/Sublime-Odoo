@@ -2,10 +2,14 @@
 
 <snippet>
     <content><![CDATA[
-# Copyright ${1:YEAR(S)}, ${2:AUTHOR(S)}
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
+# -*- coding: utf-8 -*-
+# Copyright 2020 Versada UAB
+# License AGPL-3 or later (http://www.gnu.org/licenses/agpl).
 
-from . import $0
+from . import (
+    ${1:models},
+)
+
 ]]></content>
     <tabTrigger>init</tabTrigger>
     <scope>source.python</scope>

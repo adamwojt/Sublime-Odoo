@@ -2,17 +2,11 @@
 
 <snippet>
     <content><![CDATA[
-class ${1:ClassName}(models.Model):
-    _name = '${2:Odoo.model}'
+class ${1:NewClass}(models.Model):
+    _name = '${2:new.model}'
     _description = '${3:Description}'
 
-    ${4:name} = fields.Char(
-    	string='$5',
-    	size=${6:64},
-    	required=${7:False},
-    	readonly=${8:False},
-    	default={$9:False}
-    )$0
+    $0
 ]]></content>
     <tabTrigger>class</tabTrigger>
     <scope>source.python</scope>

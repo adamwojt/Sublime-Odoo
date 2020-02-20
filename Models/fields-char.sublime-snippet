@@ -3,10 +3,10 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Char(
-    string='${2:Filed Label}',
+    string='${2:Filed Label}',$3
 )$0
 ]]></content>
     <tabTrigger>fields.Char</tabTrigger>
     <scope>source.python</scope>
-    <description>char field (Odoo)</description>
+    <description>Odoo char field</description>
 </snippet>

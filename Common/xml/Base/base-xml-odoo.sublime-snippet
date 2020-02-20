@@ -3,9 +3,9 @@
 <snippet>
     <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
-<odoo>
+<${1:odoo}>
     $0
-</odoo>
+</${1:odoo}>
 
 ]]></content>
     <tabTrigger>base</tabTrigger>

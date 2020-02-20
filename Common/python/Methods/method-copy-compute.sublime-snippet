@@ -1,0 +1,12 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+@api.depends('${1:field}')
+def _compute_${2:value}(self):
+    $0
+]]></content>
+    <tabTrigger>compute</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo Method Compute</description>
+</snippet>

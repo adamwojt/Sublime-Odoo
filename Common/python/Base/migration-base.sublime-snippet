@@ -1,0 +1,21 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+# Copyright 2020 Versada UAB
+# License AGPL-3 or later (https://www.gnu.org/licenses/agpl).
+
+from openerp import api, SUPERUSER_ID
+
+
+def migrate(cr, version):
+    with api.Environment.manage():
+        env = api.Environment(cr, SUPERUSER_ID, {})
+        cr.execute("${1:query}")
+
+]]></content>
+    <tabTrigger>migration</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo - Migration</description>
+</snippet>

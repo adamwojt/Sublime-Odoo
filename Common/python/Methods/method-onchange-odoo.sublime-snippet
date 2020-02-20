@@ -8,5 +8,5 @@ def _onchange_${1:field_name}(self):
 ]]></content>
     <tabTrigger>onchange</tabTrigger>
     <scope>source.python</scope>
-    <description>Method on_change Odoo</description>
+    <description>Odoo Method on_change</description>
 </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<record id="${1:view_id}" model="ir.ui.view">
+    <field name="model">${2:model.model}</field>
+    <field name="inherit_id" ref="${3:module}.${1:view_id}"/>
+    <field name="priority" eval="100"/>
+    <field name="arch" type="xml">
+        <field name="$4" position="$5">
+        	$0
+        </field>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>inherit</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo View Inherit</description>
+</snippet>

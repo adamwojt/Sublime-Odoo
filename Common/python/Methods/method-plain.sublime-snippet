@@ -1,0 +1,12 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:@api.multi}
+def ${2:method_name}(${3:self}):
+    $0
+]]></content>
+    <tabTrigger>method</tabTrigger>
+    <scope>source.python</scope>
+    <description>Python Function</description>
+</snippet>

@@ -1,0 +1,11 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+compute='_compute_${1:value}',
+]]>
+</content>
+    <tabTrigger>compute</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo Field Attribute Compute</description>
+</snippet>

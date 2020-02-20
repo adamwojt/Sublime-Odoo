@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+attrs={'${1:invisible}': [('${2:field}', '${3:=}', ${4:True})],$0}
+]]></content>
+	<tabTrigger>attrs</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Odoo Attrs</description>
+</snippet>

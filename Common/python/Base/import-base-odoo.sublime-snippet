@@ -2,13 +2,15 @@
 
 <snippet>
     <content><![CDATA[
-# Copyright ${1:YEAR(S)}, ${2:AUTHOR(S)}
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
+# -*- coding: utf-8 -*-
+# Copyright 2020 Versada UAB
+# License AGPL-3 or later (http://www.gnu.org/licenses/agpl).
 
-from odoo import fields, models
+from odoo import fields, models$1
 
-$0]]></content>
+
+$2]]></content>
     <tabTrigger>import</tabTrigger>
     <scope>source.python</scope>
-    <description>Import Base Odoo</description>
+    <description>Odoo Import Base</description>
 </snippet>

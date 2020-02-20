@@ -1,0 +1,13 @@
+<!-- Odoo XML Snippets -->
+
+<snippet>
+    <content><![CDATA[
+<record id="${1:record_id}" model="${2:model}.${3:model}">
+    <field name="${4:name}">$5</field>
+    $0
+</record>
+]]></content>
+    <tabTrigger>rec</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Object Record</description>
+</snippet>

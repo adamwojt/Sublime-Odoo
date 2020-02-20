@@ -5,8 +5,6 @@
 @api.constrains('${1:field}')
 def ${2:_check_method}(self):
     $0
-    if ${3:Test}:
-        raise ValidationError(_('Error: Invalid Message'))
 ]]></content>
     <tabTrigger>_constraints</tabTrigger>
     <scope>source.python</scope>

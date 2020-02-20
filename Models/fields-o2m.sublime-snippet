@@ -3,9 +3,9 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name}_ids = fields.One2many(
-    '${2:source.model.name}',
-    '${3:o2m_field_id'},
-    string='${4:Field Label}',
+    comodel_name='${2:model}.${3:name}',
+    inverse_name='${4:field}_id',
+    string='${5:Field Label}',$3
 )$0
 ]]></content>
     <tabTrigger>fields.One2many</tabTrigger>

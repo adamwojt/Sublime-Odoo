@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-domain=[('${1:state}', '${2:=}', '${3:done}'),$0]
+('${1:state}', '${2:=}', '${3:done}')$0
 ]]></content>
-    <tabTrigger>domain</tabTrigger>
-    <scope>source.python</scope>
+    <tabTrigger>triplet</tabTrigger>
+    <scope>source.python,text.xml</scope>
     <description>Odoo Field Attribute domain</description>
 </snippet>
