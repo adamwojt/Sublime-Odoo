@@ -5,7 +5,7 @@
 ${1:field_name}_ids = fields.One2many(
     comodel_name='${2:model}.${3:name}',
     inverse_name='${4:field}_id',
-    string='${5:Field Label}',$3
+    string='${5:Field Label}',$6
 )$0
 ]]></content>
     <tabTrigger>fields.One2many</tabTrigger>

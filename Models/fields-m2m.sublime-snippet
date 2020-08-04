@@ -4,7 +4,7 @@
     <content><![CDATA[
 ${1:field_name}_ids = fields.Many2many(
     comodel_name='${2:model}.${3:name}',
-    string='${4:Field Label}',$3
+    string='${4:Field Label}',$5
 )$0
 ]]></content>
     <tabTrigger>fields.Many2many</tabTrigger>

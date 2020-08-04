@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+def ${1:wrapper}(${2:func}):
+    def wrap(*args, **kwargs):
+    	${0:pass}
+    return wrap
+]]></content>
+	<tabTrigger>decorator</tabTrigger>
+	<scope>source.python</scope>
+	<description>Python wrapper / decorator</description>
+</snippet>

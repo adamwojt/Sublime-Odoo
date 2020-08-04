@@ -1,0 +1,21 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+from contextlib import contextmanager
+from time import time
+
+@contextmanager
+def timing(description):
+    start = time()
+    yield
+    ellapsed_time = time() - start
+
+    print "{description}: {ellapsed_time}".format(description=description, ellapsed_time=ellapsed_time)
+
+with timing("ELAPSED TIME read()"):
+	$SELECTION
+]]></content>
+    <scope>source.python</scope>
+    <description>Python Context m. Timer</description>
+</snippet>

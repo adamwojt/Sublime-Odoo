@@ -1,0 +1,12 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+try:
+	$SELECTION
+except:
+	import pdb; pdb.set_trace()
+]]></content>
+    <scope>source.python</scope>
+    <description>Python debug selection</description>
+</snippet>
